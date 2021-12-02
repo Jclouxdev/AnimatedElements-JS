@@ -34,6 +34,10 @@ section {
   color: #0056a7;
 }
 
+footer {
+  background:#fcdb6d;
+}
+
 .animate-me {
   animation: bounceIn 3s ease-in-out;
 }
