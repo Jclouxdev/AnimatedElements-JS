@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+:root{
+  --clr: #222327;
+  --mar: #2c2c2c;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: var(--clr);
+}
+.main{
+    display: flex;
+}
+.form{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  background-color: transparent;
+  border: solid 6px var(--mar);
+  border-radius: 50%;
+  transition: 1s;
+}
+.form:nth-child(1):hover{
+  transition: 0.3s;
+  border:  solid 6px #FFD700;
+  box-shadow: 0 0px 10px #FFD700;
+  transform: scale(110%);
+}
+.form:nth-child(1) p{
+  position: relative;
+  text-align: center;
+  line-height: 190px;
+  font-size: 2em;
+  color: var(--mar);
+  transition: 1s;
+}
+.form:nth-child(1) p:hover{
+  transition: 0.3s;
+  color: #FFD700;
+  text-shadow: 5px 0px 10px #FFD700;
+}
+
+.form:nth-child(2):hover{
+  transition: 0.3s;
+  border:  solid 6px #a11ba1;
+  box-shadow: 0 0px 10px #a11ba1;
+  transform: scale(110%);
+}
+.form:nth-child(2) p{
+  position: relative;
+  text-align: center;
+  line-height: 190px;
+  font-size: 2em;
+  color: var(--mar);
+  transition: 1s;
+}
+.form:nth-child(2) p:hover{
+  transition: 0.3s;
+  color: #a11ba1;
+  text-shadow: 5px 0px 10px #a11ba1;
+}
+
+.form:nth-child(3):hover{
+  transition: 0.3s;
+  border:  solid 6px #16a716;
+  box-shadow: 0 0px 10px #16a716;
+  transform: scale(110%);
+}
+.form:nth-child(3) p{
+  position: relative;
+  text-align: center;
+  line-height: 190px;
+  font-size: 2em;
+  color: var(--mar);
+  transition: 1s;
+}
+.form:nth-child(3) p:hover{
+  transition: 0.3s;
+  color: #16a716;
+  text-shadow: 5px 0px 10px #16a716;
+}
